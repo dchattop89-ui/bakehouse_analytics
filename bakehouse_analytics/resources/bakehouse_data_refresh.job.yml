@@ -25,11 +25,11 @@ resources:
       tasks:
         - task_key: customer360_refresh
           notebook_task:
-            notebook_path: ../src/customer_360
+            notebook_path: ../src/customer_360.ipynb
             source: WORKSPACE
         - task_key: sales_transaction_refresh
           notebook_task:
-            notebook_path: ../src/transaction_summary
+            notebook_path: ../src/transaction_summary.ipynb
             source: WORKSPACE
 
       environments:
