@@ -23,9 +23,14 @@ resources:
           default: ${var.schema}
 
       tasks:
-        - task_key: notebook_task
+        - task_key: customer360_refresh
           notebook_task:
-            notebook_path: ../src/customer_360.ipynb
+            notebook_path: ../src/customer_360
+            source: WORKSPACE
+        - task_key: sales_transaction_refresh
+          notebook_task:
+            notebook_path: ../src/transaction_summary
+            source: WORKSPACE
 
       environments:
         - environment_key: default
