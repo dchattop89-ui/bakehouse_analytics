@@ -27,6 +27,10 @@ resources:
           notebook_task:
             notebook_path: ../src/customer_360.ipynb
             source: WORKSPACE
+        - task_key: sales_franchise
+          notebook_task:
+            notebook_path: ../src/sales_franchises.ipynb
+            source: WORKSPACE
         - task_key: sales_transaction_refresh
           notebook_task:
             notebook_path: ../src/transaction_summary.ipynb
